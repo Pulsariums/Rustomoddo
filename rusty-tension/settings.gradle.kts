@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        maven { url "https://maven.fabricmc.net/" }
+        maven { url "https://maven.neoforged.net/releases/" }
+        maven { url "https://maven.minecraft.net/" }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "rusty-tension"
